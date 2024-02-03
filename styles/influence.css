@@ -1,0 +1,35 @@
+/* header section style */
+header{
+    background-color: #FFF;
+    padding: 80px 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+/* banner section styles */
+.banner{
+    display: flex;
+    margin-top: 60px;
+}
+.banner-content{
+    padding: 110px 40px 90px 0%;
+    /* border: 2px solid firebrick; */
+}
+.banner img{
+    width: 40%;
+    /* border: 2px solid green */
+}
